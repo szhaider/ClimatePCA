@@ -1,0 +1,39 @@
+Package: ClimatePCA
+Title: Climate & Development Indicators - Spatial Targeting based on
+    Principal Component Analysis (PCA)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Zeeshan", "Haider", , "szh223@nyu.edu", role = c("cre", "aut"))
+Description: Spatial profiling of districts (Pakistan) based on Principal
+    Component Analysis.
+License: MIT + file LICENSE
+Depends: 
+    R (>= 2.10)
+Imports: 
+    config (>= 0.3.1),
+    dplyr,
+    ggplot2,
+    glue,
+    golem (>= 0.3.2),
+    htmltools,
+    leaflet,
+    magrittr,
+    purrr,
+    recipes,
+    scales,
+    shiny (>= 1.7.1),
+    shinythemes,
+    shinyWidgets,
+    tidyr
+Suggests: 
+    knitr,
+    rmarkdown,
+    spelling,
+    testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 7.2.1
