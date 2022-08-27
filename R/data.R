@@ -1,4 +1,11 @@
 
+#Loading datasets since lazydata:false in description
+data("pak_district")
+data("districts")
+data("legend")
+data("data_pca")
+
+
 #' District Shapefile - Pakistan
 #'
 #' @source <World Bank>
@@ -51,3 +58,4 @@
 #' @format tibble
 #'
 "legend"
+###############################################################################

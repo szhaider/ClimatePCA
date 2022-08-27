@@ -7,6 +7,8 @@ Authors@R:
 Description: Spatial profiling of districts (Pakistan) based on Principal
     Component Analysis.
 License: MIT + file LICENSE
+URL: https://github.com/szhaider/ClimatePCA
+BugReports: https://github.com/szhaider/ClimatePCA/issues
 Depends: 
     R (>= 2.10)
 Imports: 
@@ -35,7 +37,5 @@ VignetteBuilder:
 Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-US
-LazyData: true
+LazyData: false
 RoxygenNote: 7.2.1
-URL: https://github.com/szhaider/ClimatePCA
-BugReports: https://github.com/szhaider/ClimatePCA/issues

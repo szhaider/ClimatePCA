@@ -19,6 +19,7 @@
 #' @importFrom purrr map_df possibly
 #' @importFrom scales percent_format
 
+
 mod_interactive_maps_ui <- function(id, ...){
   ns <- NS(id)
   tagList(

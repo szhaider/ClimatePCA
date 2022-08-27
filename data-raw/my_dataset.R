@@ -47,7 +47,7 @@ data_pca <- data_pca %>%
 
 #Exporting data for Shiny
 usethis::use_data(data_pca, overwrite = TRUE)
-# usethis::use_data(data_pca, overwrite = TRUE, internal = TRUE)
+usethis::use_data(data_pca, overwrite = TRUE, internal = TRUE)
 
 library(sf)
 #Reading in shapefiles

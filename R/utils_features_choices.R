@@ -9,7 +9,6 @@
 #'
 #Making a grouped list of choices for 2 portfolios in shiny
 
-data("data_pca")
 
 mychoices <- list(
   `Survey Data` = c(names(data_pca[2:34])),
